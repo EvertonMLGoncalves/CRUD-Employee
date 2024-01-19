@@ -101,7 +101,11 @@
     </div>
   </div>
   <div matDialogActions class="action">
-    <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
-    <button mat-raised-button color="primary" type="submit">{{getData() ? 'Update' : 'Save'}}</button>
+    <button mat-raised-button type="button" [mat-dialog-close]="false">
+      Cancel
+    </button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ getData() ? "Update" : "Save" }}
+    </button>
   </div>
 </form>

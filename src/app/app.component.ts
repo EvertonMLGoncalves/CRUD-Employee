@@ -37,7 +37,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   constructor(
     private _dialog: MatDialog,
     private _empService: EmployeeService,
-    private _coreService : CoreService
+    private _coreService: CoreService
   ) {}
 
   ngAfterViewInit() {}
@@ -76,7 +76,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   deleteEmployee(id: number) {
     this._empService.deleteEmployee(id).subscribe({
       next: (res) => {
-        this._coreService.openSnackBar('Employee deleted!')
+        this._coreService.openSnackBar('Employee deleted!');
         this.getEmployeeList();
       },
       error: console.log,
