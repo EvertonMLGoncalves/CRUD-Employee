@@ -19,7 +19,7 @@
 
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-   - [Warming](#warming)
+   - [Warning](#warning)
    - [Installation of Angular CLI](#installation-of-angular-cli)
    - [Cloning the repository](#cloning-the-repository)
    - [Installation of Dependencies](#installation-of-dependencies)
