@@ -50,13 +50,13 @@
 
 # Installation:
 
-## - Warning:
+## Warning:
 
 ### For run this project you'll must have the <a href="https://nodejs.org/en">nodejs</a> and npm installed in your machine.
 
 ### I recomment that you use visual studio core as a code editor because the documentation is based on it, but you're free to choice your code editor.
 
-## - Installation of Angular CLI:
+## Installation of Angular CLI:
 
 ### To install the Angular CLI, open a terminal with VSCODE and type:
 
@@ -64,7 +64,7 @@
 npm install -g @angular/cli
 ```
 
-## - Cloning the repository:
+##  Cloning the repository:
 
 ### To clone this repository, open the terminal and find the root directory of your project and run it to initialize a local repository:
 
@@ -78,7 +78,7 @@ git init
 git clone https://github.com/EvertonMLGoncalves/crud-employee
 ```
 
-## - Installation of Dependencies:
+## Installation of Dependencies:
 
 ### To install the dependencies open the file of the project and run it in a terminal:
 
@@ -90,7 +90,7 @@ npm install
 
 # Execution:
 
-## - Initialize the DB.JSON:
+## Initialize the DB.JSON:
 
 ### To initialize the DB.JSON run this in a terminal:
 
@@ -98,7 +98,7 @@ npm install
 json-server -w db.json
 ```
 
-## - Initialize the local server:
+## Initialize the local server:
 
 ```bash
 ng-serve -o
@@ -108,7 +108,7 @@ ng-serve -o
 
 # Components:
 
-## - app.component
+## app.component
 
 - ### This component has most of the code. It contains all other components. It is also rendered in the `index.html` file, rendering all other components per chain.
 - ### It also contain the principal table that has the sorting funtionality. This table is part of angular material.
